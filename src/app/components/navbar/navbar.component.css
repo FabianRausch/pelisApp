@@ -1,0 +1,40 @@
+img {
+    width: 2.5rem;
+}
+
+.container-button {
+    display: inline-block;
+    text-align: end;
+}
+
+.navbar {
+    height: 5rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background: #8181ff;
+    box-shadow: -1px 10px 27px #7474e63d, 14px 2px 1rem #8e8eff;
+    border-radius: 0 0 1rem 1rem;
+}
+
+input {
+    border-radius: 1rem;
+    background: #8181ff;
+    box-shadow: inset 20px 20px 26px #7474e6, inset -20px -20px 26px #8e8eff;
+    color: #ffffffa3;
+}
+
+button {
+    border-color: #f0f8ff75;
+    border-radius: .5rem;
+    background: linear-gradient(145deg, #8a8aff, #7474e6);
+    box-shadow: 20px 20px 26px #6e6ed9, -20px -20px 26px #9494ff;
+}
+
+button:hover {
+    border-radius: .5rem;
+    background: #8181ff;
+    box-shadow: inset 20px 20px 26px #6e6ed9, inset -20px -20px 26px #9494ff;
+    color: rgba(255, 255, 255, 0.664);
+    border-color: #f0f8ff75;
+}

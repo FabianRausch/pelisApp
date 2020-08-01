@@ -1,0 +1,62 @@
+.container {
+    margin-top: 10rem;
+    padding: 3rem 2rem 3rem;
+    border-radius: 16px;
+    background: #47444b;
+    box-shadow: 12px 12px 24px #534a6e, -12px -12px 24px #7298ff5e;
+}
+
+.logo {
+    position: relative;
+    border-radius: 16px;
+    background: #47444b;
+    box-shadow: 12px 12px 24px #3c3c3c, -12px -12px 24px #313b535e;
+    width: 10rem;
+    margin-left: auto;
+    height: 10rem;
+    margin-right: auto;
+    top: -8rem;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+form {
+    margin-top: -7rem;
+}
+
+img {
+    width: 8rem;
+    margin-top: 2rem;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+input {
+    border: none;
+    border-radius: 16px;
+    background: #47444b;
+    box-shadow: inset 12px 12px 24px #28272b, inset -12px -12px 24px #66616b;
+    color: rgba(255, 255, 255, 0.739);
+}
+
+.is-invalid {
+    border: 1px solid #dc3545a6 !important;
+}
+
+button {
+    border: none;
+    margin-top: 5rem;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #4c4950, #403d44);
+    box-shadow: 12px 12px 24px #28272b, -12px -12px 24px #66616b;
+    border: 1px solid #0069d9;
+}
+
+button:hover {
+    border-radius: 16px;
+    background: linear-gradient(145deg, #403d44, #4c4950);
+    box-shadow: 12px 12px 24px #28272b, -12px -12px 24px #66616b;
+}

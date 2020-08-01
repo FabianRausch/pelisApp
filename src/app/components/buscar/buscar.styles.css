@@ -1,0 +1,33 @@
+.col {
+    border-radius: 16px;
+    background: #47444b;
+    box-shadow: 20px 20px 60px #353238, -20px -20px 60px #59565f;
+}
+
+.container {
+    margin-top: 7rem;
+}
+
+label {
+    color: white
+}
+
+.card {
+    border-radius: 50px;
+    background: #47444b;
+    box-shadow: 20px 20px 60px #3c3a40, -20px -20px 60px #524e56;
+    color: white;
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.541);
+}
+
+input {
+    block-size: auto;
+    border: 1px solid #8181ff8f;
+    border-radius: 16px;
+    background: #47444b;
+    color: white;
+    box-shadow: inset 12px 12px 24px #28272b, inset -12px -12px 24px #9678b45c;
+}

@@ -1,0 +1,25 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn slow p-5 mb-1 col-12">
+    <div class="row header-logo col-xl-10 col-lg-12 col-md-12 col-sm-12">
+        <div class="container-logo text-left mr-1 col-2">
+            <img src="https://image.flaticon.com/icons/png/512/1206/1206847.png">
+        </div>
+        <div class="mt-4 col-8">
+            <h1 class="display-4">PelisApp</h1>
+            <p class="lead">Esta es una app de películas tomadas de TheMovieDb.org...</p>
+        </div>
+    </div>
+</div>
+<div class="container col-xl-10 col-lg-12 col-md-12 col-sm-12 animated fadeIn slow">
+    <br>
+
+    <div class="col p-5 mb-3">
+        <app-galeria [peliculas]="cartelera|slice:0:6" titulo="Peliculas en cartelera"></app-galeria>
+    </div>
+    <div class="col p-5 mb-3">
+        <app-galeria [peliculas]="populares|slice:0:6" titulo="Populares hoy"></app-galeria>
+    </div>
+    <div class="col p-5 mb-3">
+        <app-galeria [peliculas]="populares2019|slice:0:6" titulo="Populares 2019"></app-galeria>
+    </div>
+
+</div>
